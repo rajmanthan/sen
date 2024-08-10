@@ -9,7 +9,7 @@ pipeline {
         }
         stage('checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Fir3eye/springboot-demo.git'
+                git branch: 'main','new', url: 'https://github.com/Fir3eye/springboot-demo.git'
             }
         }
         stage('pull') {
